@@ -1,0 +1,12 @@
+id = 'uyen'
+
+[email]
+username = 'uhoangth'
+host = 'gmail.com'
+
+[name]
+display = 'Uyen Hoang'
+
+[social]
+email = ''
+facebook = 'uhoang'
