@@ -1,9 +1,9 @@
-+++
-date = "2017-02-09T15:06:09-05:00"
-title = "Modules in Python"
-categories = ["coding"]
+---
+date: "2017-02-09T15:06:09-05:00"
+title: "Modules in Python"
+tags: ["coding"]
 
-+++
+---
 
 I recently started reading, A byte of python, and found it a very helpful guide to the language for a beginner. The book was well-written, and explained most of important concepts in simple terms with self evident examples to follow. Thus, it made learning Python simple and interesting.
 

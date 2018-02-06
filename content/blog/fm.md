@@ -1,7 +1,7 @@
 ---
 title: "Note on Factorization machines"
 date: 2017-01-24T15:28:54-05:00
-categories = ["machine learning"]
+tags: ["machine learning"]
 ---
 
 Factorization machines (FM) are a generic model class that can mimic most factorization models just by feature engineering.
