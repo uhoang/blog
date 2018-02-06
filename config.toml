@@ -23,7 +23,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = ""
+description = "Statistics, Machine Learning, Coding"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -84,7 +84,7 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
-name = "Repo"
+name = "Github"
 weight = -10
 identifier = "repository"
 url = "https://github.com/uhoang"

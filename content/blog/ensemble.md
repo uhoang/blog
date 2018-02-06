@@ -1,5 +1,5 @@
 ---
-title: "Ensemble"
+title: "Ensemble methods"
 date: 2017-02-25T15:16:17-05:00
 
 ---
