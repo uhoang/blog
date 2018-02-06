@@ -1,7 +1,7 @@
 ---
 title: "Decision trees"
 date: 2017-02-17T14:53:17-05:00
-
+categories = ["machine learning"]
 ---
 
 # Decision trees

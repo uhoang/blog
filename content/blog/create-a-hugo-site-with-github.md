@@ -1,7 +1,7 @@
 ---
 title: "Create a Hugo site with Github"
 date: 2017-01-15T23:28:25-05:00
-
+categories = ["coding", "markdown"]
 ---
 
 # Step 1: Install Hugo
