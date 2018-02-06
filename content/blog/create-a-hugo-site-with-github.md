@@ -18,6 +18,7 @@ sudo apt-get install hugo
 # Step 2: Create a new site
 
 In your terminal, run the following command, where site_name will be your site directory. This means that all the markdown and templates and configuration will be store in that directory. For simplicity, let's call this directory `blog`.
+
 ```
 hugo new site blog
 ```
@@ -42,7 +43,7 @@ cp themes/minimo/exampleSite/config.toml .
 ```
 Now, we can start editing this file and change configuration! For more setup guides on the theme, go to [minimo] (https://minimo.netlify.com/)
 
-Step 4: Add some content
+# Step 4: Add some content
 
 ```
 mkdir content/blog
@@ -73,7 +74,7 @@ Press Ctrl+C to stop
 ``` 
 Open with any web browsers at <http:localhost:1313//>
 
-# Step 6: Deploy on github
+# Step 5: Deploy on github
 There are 2 types of Github Pages: 
 * User/Organization Pages
 * Project Pages
@@ -142,4 +143,4 @@ git push origin master
 cd ..
 ```
 
-To deploy, run `./deploy.shs "Your optional commit message"` to send changes to `<username>.github.io`. Note that we still need to commit changes to our `blog` repository.
+To deploy, run `./deploy.sh "Your optional commit message"` to send changes to `<username>.github.io`. Note that we still need to commit changes to our `blog` repository.
