@@ -64,16 +64,16 @@ titleSeparator = "•"
 [params.social]
 #codepen = "MunifTanjim"
 email = "uhoangth@gmail.com"
-facebook = "uyen.hoang.399"
+linkedin = "uyenhoang"
 github = "uhoang"
 instagram = "uhoangth"
-#linkedin = "uyenhoang"
+facebook = "uyen.hoang.399"
 #twitter = "MunifTanjim"
 #telegram = "MunifTanjim"
 #google_scholar = "qc6CJjYAAAAJ"
 
 [params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin","telegram","google_scholar"]
+platforms = ["email","linkedin","github","facebook","instagram"]
 
 [taxonomies]
 author = "authors"
