@@ -35,11 +35,14 @@ In this section, I will describe the clustering approach, its rationales and mai
       * For each cluster, identify the observation that woud yield the lowest average distance if it were to be re-assigned as the medoid. if so, make this observation the new medoid
       * If at least one medoid has changed, return to the second step. Otherwise, end the algorithm
       
-* __Select the number of clusters__: A variety of metrics exist to help choose the number of clusters. In this analysis, I use Silhouette width as a validation metric. It is an aggregated measure of how similar an observation is to its own cluster compared its closest neighboring cluster. The metric can range from -1 to 1, where higher values are better. I then plot silhouette width for clusters ranging from 2 to 10 for both algorithms. 
-<!-- [[img src = /images/pam_silhouette_width_vs_num_clusters.png alt=foobar]] -->
-![PAMsilhouette|67x72](/images/pam_silhouette_width_vs_num_clusters.png)
-![kmean silhouette][20%](/images/kmean_silhouette_width_vs_num_clusters.png)
-   2.5. Visualize clusters in lower dimensional space <br/>
+* __Select the number of clusters__: A variety of metrics exist to help choose the number of clusters. In this analysis, I use Silhouette width as a validation metric. It is an aggregated measure of how similar an observation is to its own cluster compared its closest neighboring cluster. The metric can range from -1 to 1, where higher values are better. I then plot silhouette width for clusters ranging from 2 to 10 for both algorithms. From the Figure 1, we see that the PAM algorithm with 5 clusters yields the highest Silhouette value. On the other hand, K-Means with 2 clusters gives the highest Silhouette score. <br/> 
+
+{{<figure src="/images/pam_silhouette_width_vs_num_clusters.png" title="Fig.1: Silhouette width by number of cluster in PAM">}}
+<br/> 
+{{<figure src="/images/kmean_silhouette_width_vs_num_clusters.png" title="Fig.2: Silhouette width by number of cluster in K-Means">}}
+<br/>
+
+* __Visualize clusters in lower dimensional space__ <br/>
    &nbsp;&nbsp;&nbsp; Use t-distributed stochastic neighborhood embedding method to preserve local structure of the data such as to make clusters visible in a 2D or 3D visualization. 
 
    2.6. Assess the cluster stability <br/>
