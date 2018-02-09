@@ -4,7 +4,7 @@ date: 2017-10-10T16:07:03-05:00
 tags: ['clustering', 'R']
 ---
 
-Recently, I've built a consumer lifestyle segmentation tool for the analytics and insight team at Moutain Equipment Co-op. The main purpose of this project is to replicate a typing tool, that has previously been developed for US consumers by McKinsey's data team. This tool is leveraged to design a scalable, customer-centric marketing solutions. The analysis for this tool is written in R. For futher details, you can visit [my Github repository] (https://github.com/uhoang/mec_project/).
+Recently, I've built a consumer lifestyle segmentation tool for the analytics and insight team at Moutain Equipment Co-op. The main purpose of this project is to replicate a typing tool, that has previously been developed for US consumers by McKinsey's data team. This tool is leveraged to design a scalable, customer-centric marketing solutions. The analysis for this tool is written in R. For futher details, you can visit [my Github repository] (https://github.com/uhoang/mec/).
 
 ### Objectives: 
 - Build health lifestyle segmentation for Canadian consumers using an online survey of 2000 responses arranged by a panel provider.
