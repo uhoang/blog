@@ -16,7 +16,7 @@ I am a Data Scientist located in Toronto, Canada. My recent work focuses on the 
 * To build segmentation tools for social and political ideologies
 * To predict socio-demographics for online advertising
 
-I have over 4 years of [work experience](/cv/uyen_resume.pdf) in the data science field. My recent experience includes the following companies: 
+I have over 4 years of [work experience](/cv/Uyen_resume.pdf) in the data science field. My recent experience includes the following companies: 
 
 * [Mountain Equipment Co-op] (https://www.mec.ca/en/), Toronto, Canada
 * [Vox Pop Labs Inc.](http://voxpoplabs.com/), Toronto, Canada
