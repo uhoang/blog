@@ -1,0 +1,189 @@
+<HTML>
+<HEAD>
+<STYLE type="text/css">
+.column { color: blue; font-weight: bold; }
+.label { color:red; font-weight: bold; }
+.title { padding: 6px 0px 6px 0px; margin: 6px 0px 3px 0px;
+border-top: 2px solid #008; border-bottom: 2px solid #008;
+font-weight: bold; }
+UL { margin-top: 0px; margin-bottom: 0px }
+SPAN.qaCode { color: #f50; font-size: smaller; }
+
+</STYLE>
+<DIV class="label">[Q_AGESCREENER]</DIV>
+<DIV class="title" >How old are you?  <span class="qaCode"><sup class="qaCode">
+<span title="Question type is Number">NUM</span>
+<span title="Verify input using formula &#39;range&#40;0,99&#41;&#39;">VRF:range(0,99)</span>
+</sup></span></DIV>
+Values: 0-99
+<UL>
+</UL>
+<P/>
+
+
+<DIV class="label">[Q_PROVINCE]</DIV>
+<DIV class="title" >Which province&#47;territory do you currently live in?  <span class="qaCode"><sup class="qaCode">
+<span title="Question type is Radio">RAD</span>
+</sup></span></DIV>
+Values: 1-14
+<UL>
+<LI><B>1</B> - <SPAN >Ontario</SPAN>
+<LI><B>2</B> - <SPAN >Quebec</SPAN>
+<LI><B>3</B> - <SPAN >British Columbia</SPAN>
+<LI><B>4</B> - <SPAN >Alberta</SPAN>
+<LI><B>5</B> - <SPAN >Manitoba</SPAN>
+<LI><B>6</B> - <SPAN >Saskatchewan</SPAN>
+<LI><B>7</B> - <SPAN >Nova Scotia</SPAN>
+<LI><B>8</B> - <SPAN >New Brunswick</SPAN>
+<LI><B>9</B> - <SPAN >Newfoundland and Labrador</SPAN>
+<LI><B>10</B> - <SPAN >Prince Edward Island</SPAN>
+<LI><B>11</B> - <SPAN >Northwest Territories</SPAN>
+<LI><B>12</B> - <SPAN >Yukon</SPAN>
+<LI><B>13</B> - <SPAN >Nunavut</SPAN>
+<LI><B>14</B> - <SPAN >I do not live in Canada</SPAN>
+</UL><BR>
+<UL>
+</UL>
+<P/>
+
+<DIV class="label">[Q_COMMUNITY]</DIV>
+<DIV class="title" >Please indicate which best describes where you live.  <span class="qaCode"><sup class="qaCode">
+<span title="Question type is Radio">RAD</span>
+</sup></span></DIV>
+Values: 1-5
+<UL>
+<LI><B>1</B> - <SPAN >Urban&#47;city centre</SPAN>
+<LI><B>2</B> - <SPAN >Large population centre</SPAN>
+<LI><B>3</B> - <SPAN >Medium population centre</SPAN>
+<LI><B>4</B> - <SPAN >Small population centre</SPAN>
+<LI><B>5</B> - <SPAN >Rural area</SPAN>
+</UL><BR>
+<UL>
+</UL>
+<P/>
+
+<DIV class="label">Q_CONDITION</DIV>
+<DIV class="title" >Which of the following health conditions, if any, do you currently suffer from?  <span class="qaCode"><sup class="qaCode">
+<span title="Question type is Checkbox">CHE</span>
+<span title="Rows are shuffled">SHF(r)</span>
+<span title="At least 1 choices need to be selected">ATL:1</span>
+</sup></span></DIV>
+Values: 0-1
+<UL>
+<LI><B>0</B> - <SPAN >Unchecked</SPAN>
+<LI><B>1</B> - <SPAN >Checked</SPAN>
+</UL><BR>
+<UL>
+<LI> <B>[Q_CONDITIONr1]</B> - Difficulty falling asleep
+<LI> <B>[Q_CONDITIONr2]</B> - Fatigue&#47; lack of energy
+<LI> <B>[Q_CONDITIONr3]</B> - High blood pressure&#47; Hypertension
+<LI> <B>[Q_CONDITIONr4]</B> - Insomnia&#47; Difficulty staying asleep
+<LI> <B>[Q_CONDITIONr5]</B> - Joint problems&#47; stiffness
+<LI> <B>[Q_CONDITIONr6]</B> - Stress&#47; anxiety
+<LI> <B>[Q_CONDITIONr7]</B> - Oral&#47; Dental&#47; Tooth problems
+<LI> <B>[Q_CONDITIONr8]</B> - Weight concerns
+<LI> <B>[Q_CONDITIONr9]</B> - Glaucoma, cataracts, or other vision-related ailments
+<LI> <B>[Q_CONDITIONr10]</B> - Digestive complications
+<LI> <B>[Q_CONDITIONr11]</B> - Heart condition
+<LI> <B>[Q_CONDITIONr12]</B> - Respiratory condition
+<LI> <B>[Q_CONDITIONr13]</B> - High cholesterol
+<LI> <B>[Q_CONDITIONr14]</B> - Chronic pain
+<LI> <B>[Q_CONDITIONr15]</B> - Diabetes
+<LI> <B>[Q_CONDITIONr16]</B> - Some other condition&#40;s&#41;
+<LI> <B>[Q_CONDITIONr98]</B> - None of the above
+</UL>
+<P/>
+
+<DIV class="label">[Q_GENDER]</DIV>
+<DIV class="title" >Are you...?  <span class="qaCode"><sup class="qaCode">
+<span title="Question type is Radio">RAD</span>
+</sup></span></DIV>
+Values: 1-100
+<UL>
+<LI><B>1</B> - <SPAN >Male</SPAN>
+<LI><B>2</B> - <SPAN >Female</SPAN>
+<LI><B>100</B> - <SPAN >Other</SPAN>
+</UL><BR>
+<UL>
+</UL>
+<P/>
+
+<DIV class="label">[Q_PARENTS]</DIV>
+<DIV class="title" >Do you have children under the age of 18 living at home?  <span class="qaCode"><sup class="qaCode">
+<span title="Question type is Radio">RAD</span>
+</sup></span></DIV>
+Values: 1-2
+<UL>
+<LI><B>1</B> - <SPAN >Yes</SPAN>
+<LI><B>2</B> - <SPAN >No</SPAN>
+</UL><BR>
+<UL>
+</UL>
+<P/>
+
+<DIV class="label">Q_PREVENTION</DIV>
+<DIV class="title" >Which of the following health conditions, if any, are you concerned about preventing in the future?  <span class="qaCode"><sup class="qaCode">
+<span title="Question type is Checkbox">CHE</span>
+<span title="Rows are shuffled">SHF(r)</span>
+<span title="At least 1 choices need to be selected">ATL:1</span>
+</sup></span></DIV>
+Values: 0-1
+<UL>
+<LI><B>0</B> - <SPAN >Unchecked</SPAN>
+<LI><B>1</B> - <SPAN >Checked</SPAN>
+</UL><BR>
+<UL>
+<LI> <B>[Q_PREVENTIONr1]</B> - Diabetes
+<LI> <B>[Q_PREVENTIONr2]</B> - High blood pressure&#47; Hypertension
+<LI> <B>[Q_PREVENTIONr3]</B> - Joint problems&#47; stiffness
+<LI> <B>[Q_PREVENTIONr4]</B> - General illness - cold, flu, etc.
+<LI> <B>[Q_PREVENTIONr5]</B> - Difficulty falling asleep
+<LI> <B>[Q_PREVENTIONr6]</B> - Fatigue&#47; lack of energy
+<LI> <B>[Q_PREVENTIONr7]</B> - Insomnia&#47; Difficulty staying asleep
+<LI> <B>[Q_PREVENTIONr8]</B> - Stress&#47; anxiety
+<LI> <B>[Q_PREVENTIONr9]</B> - Oral&#47; Dental&#47; Tooth problems
+<LI> <B>[Q_PREVENTIONr10]</B> - Weight concerns
+<LI> <B>[Q_PREVENTIONr11]</B> - Glaucoma, cataracts, or other vision-related ailments
+<LI> <B>[Q_PREVENTIONr12]</B> - Digestive complications
+<LI> <B>[Q_PREVENTIONr13]</B> - Heart condition
+<LI> <B>[Q_PREVENTIONr14]</B> - Respiratory condition
+<LI> <B>[Q_PREVENTIONr15]</B> - High cholesterol
+<LI> <B>[Q_PREVENTIONr16]</B> - Chronic pain
+<LI> <B>[Q_PREVENTIONr17]</B> - Some other condition&#40;s&#41;
+<LI> <B>[Q_PREVENTIONr98]</B> - None of the above
+</UL>
+<P/>
+
+<DIV class="label">Q_STATEMENTS</DIV>
+<DIV class="title" >For each statement, please indicate your agreement on a scale of 1-7, where 1 means &#39;disagree completely&#39; and 7 means &#39;agree completely&#39;.  <span class="qaCode"><sup class="qaCode">
+<span title="Question type is Radio">RAD</span>
+<span title="Rows are shuffled">SHF(r)</span>
+</sup></span></DIV>
+Values: 1-7
+<UL>
+<LI><B>1</B> - <SPAN >Disagree completely1</SPAN>
+<LI><B>2</B> - <SPAN >2</SPAN>
+<LI><B>3</B> - <SPAN >3</SPAN>
+<LI><B>4</B> - <SPAN >4</SPAN>
+<LI><B>5</B> - <SPAN >5</SPAN>
+<LI><B>6</B> - <SPAN >6</SPAN>
+<LI><B>7</B> - <SPAN >Agree completely7</SPAN>
+</UL><BR>
+<UL>
+<LI> <B>[Q_STATEMENTSr1]</B> - Exercise is an essential part of my day
+<LI> <B>[Q_STATEMENTSr2]</B> - Friends and family often come to me for advice about how to eat well and&#47;or be healthier
+<LI> <B>[Q_STATEMENTSr3]</B> - Health and wellness are important to me, but it can be overwhelming to try to do everything I should do
+<LI> <B>[Q_STATEMENTSr4]</B> - I am happy with my current life stage
+<LI> <B>[Q_STATEMENTSr5]</B> - I am trying to &quot;fight&quot; aging by staying healthy
+<LI> <B>[Q_STATEMENTSr6]</B> - I consider myself to be living a healthy lifestyle
+<LI> <B>[Q_STATEMENTSr7]</B> - I don&#39;t stress over my nutrition or fitness level
+<LI> <B>[Q_STATEMENTSr8]</B> - I eat what I want and don&#39;t pay attention to health benefits
+<LI> <B>[Q_STATEMENTSr9]</B> - I feel depressed about my current health status
+<LI> <B>[Q_STATEMENTSr10]</B> - I focus on getting the most out of every day
+<LI> <B>[Q_STATEMENTSr11]</B> - Life is complicated. I need simple solutions for my nutritional and health needs
+<LI> <B>[Q_STATEMENTSr12]</B> - My stress level has a negative impact on my daily life
+<LI> <B>[Q_STATEMENTSr13]</B> - Social media impacts what I eat and drink
+</UL>
+<P/>
+
+</BODY></HTML>
